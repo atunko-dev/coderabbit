@@ -29,6 +29,7 @@ A repository with no file of its own takes its code guidelines (`AGENTS.md`,
 `CLAUDE.md`) from this repository, not from itself. Every repository therefore
 carries its own `.coderabbit.yaml`, even if it only sets `inheritance: true`.
 
-To check what applies, comment `@coderabbitai configuration` on a PR.
+To check what applies, comment `@coderabbitai configuration` on a PR. A review run lists the
+layers it used ("Repository YAML", "Central YAML") under Review info → Run configuration.
 
 A change here changes code review for every repository in the organization.
